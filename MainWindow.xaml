@@ -7,6 +7,35 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Container 1" />
+        <TextBlock Grid.Row="0" Grid.Column="1" Text="Container 2" />
+        <TextBlock Grid.Row="0" Grid.Column="2" Text="Container 3" />
+        <TextBlock Grid.Row="0" Grid.Column="3" Text="Container 4" />
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Container 5" />
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="Container 6" />
+        <TextBlock Grid.Row="1" Grid.Column="2" Text="Container 7" />
+        <TextBlock Grid.Row="1" Grid.Column="3" Text="Container 8" />
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Container 9" />
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="Container 10" />
+        <TextBlock Grid.Row="2" Grid.Column="2" Text="Container 11" />
+        <TextBlock Grid.Row="2" Grid.Column="3" Text="Container 12" />
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Container 13" />
+        <TextBlock Grid.Row="3" Grid.Column="1" Text="Container 14" />
+        <TextBlock Grid.Row="3" Grid.Column="2" Text="Container 15" />
+        <TextBlock Grid.Row="3" Grid.Column="3" Text="Container 16" />
     </Grid>
 </Window>
