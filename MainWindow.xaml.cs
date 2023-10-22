@@ -24,5 +24,21 @@ namespace WPF_Containers
         {
             InitializeComponent();
         }
+
+        private void MouseMove(object sender, MouseEventArgs e)
+        {
+            if (sender is Border border)
+            {
+                border.Background = new SolidColorBrush(Colors.Red);
+            }
+        }
+
+        private void MouseLeave(object sender, MouseEventArgs e)
+        {
+            if (sender is Border border)
+            {
+                border.Background = new SolidColorBrush(Colors.White);
+            }
+        }
     }
 }
