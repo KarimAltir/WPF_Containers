@@ -20,52 +20,52 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Border Grid.Row="0" Grid.Column="0" BorderBrush="Black" BorderThickness="3">
+        <Border Grid.Row="0" Grid.Column="0" BorderBrush="Black" BorderThickness="3" MouseMove="MouseMove" MouseLeave="MouseLeave">
             <TextBlock Text="Container 1" />
         </Border>
-        <Border Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="3">
-            <TextBlock Text="Container 2" />
+        <Border Grid.Row="0" Grid.Column="1" BorderBrush="Black" BorderThickness="3" MouseMove="MouseMove" MouseLeave="MouseLeave">
+            <TextBlock Text="Container 2"/>
         </Border>
-        <Border Grid.Row="0" Grid.Column="2" BorderBrush="Black" BorderThickness="3">
+        <Border Grid.Row="0" Grid.Column="2" BorderBrush="Black" BorderThickness="3" MouseMove="MouseMove" MouseLeave="MouseLeave">
             <TextBlock Text="Container 3" />
         </Border>
-        <Border Grid.Row="0" Grid.Column="3" BorderBrush="Black" BorderThickness="3">
+        <Border Grid.Row="0" Grid.Column="3" BorderBrush="Black" BorderThickness="3" MouseMove="MouseMove" MouseLeave="MouseLeave">
             <TextBlock Text="Container 4" />
         </Border>
-        <Border Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="3">
+        <Border Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="3" MouseMove="MouseMove" MouseLeave="MouseLeave">
             <TextBlock Text="Container 5" />
         </Border>
-        <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="3">
+        <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="3" MouseMove="MouseMove" MouseLeave="MouseLeave">
             <TextBlock Text="Container 6" />
         </Border>
-        <Border Grid.Row="1" Grid.Column="2" BorderBrush="Black" BorderThickness="3">
+        <Border Grid.Row="1" Grid.Column="2" BorderBrush="Black" BorderThickness="3" MouseMove="MouseMove" MouseLeave="MouseLeave">
             <TextBlock Text="Container 7" />
         </Border>
-        <Border Grid.Row="1" Grid.Column="3" BorderBrush="Black" BorderThickness="3">
+        <Border Grid.Row="1" Grid.Column="3" BorderBrush="Black" BorderThickness="3" MouseMove="MouseMove" MouseLeave="MouseLeave">
             <TextBlock Text="Container 8" />
         </Border>
-        <Border Grid.Row="2" Grid.Column="0" BorderBrush="Black" BorderThickness="3">
+        <Border Grid.Row="2" Grid.Column="0" BorderBrush="Black" BorderThickness="3" MouseMove="MouseMove" MouseLeave="MouseLeave">
             <TextBlock Text="Container 9" />
         </Border>
-        <Border Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="3">
+        <Border Grid.Row="2" Grid.Column="1" BorderBrush="Black" BorderThickness="3" MouseMove="MouseMove" MouseLeave="MouseLeave">
             <TextBlock Text="Container 10" />
         </Border>
-        <Border Grid.Row="2" Grid.Column="2" BorderBrush="Black" BorderThickness="3">
+        <Border Grid.Row="2" Grid.Column="2" BorderBrush="Black" BorderThickness="3" MouseMove="MouseMove" MouseLeave="MouseLeave">
             <TextBlock Text="Container 11" />
         </Border>
-        <Border Grid.Row="2" Grid.Column="3" BorderBrush="Black" BorderThickness="3">
+        <Border Grid.Row="2" Grid.Column="3" BorderBrush="Black" BorderThickness="3" MouseMove="MouseMove" MouseLeave="MouseLeave">
             <TextBlock Text="Container 12" />
         </Border>
-        <Border Grid.Row="3" Grid.Column="0" BorderBrush="Black" BorderThickness="3">
+        <Border Grid.Row="3" Grid.Column="0" BorderBrush="Black" BorderThickness="3" MouseMove="MouseMove" MouseLeave="MouseLeave">
             <TextBlock Text="Container 13" />
         </Border>
-        <Border Grid.Row="3" Grid.Column="1" BorderBrush="Black" BorderThickness="3">
+        <Border Grid.Row="3" Grid.Column="1" BorderBrush="Black" BorderThickness="3" MouseMove="MouseMove" MouseLeave="MouseLeave">
             <TextBlock Text="Container 14" />
         </Border>
-        <Border Grid.Row="3" Grid.Column="2" BorderBrush="Black" BorderThickness="3">
+        <Border Grid.Row="3" Grid.Column="2" BorderBrush="Black" BorderThickness="3" MouseMove="MouseMove" MouseLeave="MouseLeave">
             <TextBlock Text="Container 15" />
         </Border>
-        <Border Grid.Row="3" Grid.Column="3" BorderBrush="Black" BorderThickness="3">
+        <Border Grid.Row="3" Grid.Column="3" BorderBrush="Black" BorderThickness="3" MouseMove="MouseMove" MouseLeave="MouseLeave">
             <TextBlock Text="Container 16" />
         </Border>
     </Grid>
